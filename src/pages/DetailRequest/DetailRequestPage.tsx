@@ -17,7 +17,6 @@ export function DetailRequestPage({
   const foundIndex = requests.findIndex(
     (request) => requests.indexOf(request) === id
   );
-  console.log("foundIndex", foundIndex);
   const foundRequest = requests[foundIndex];
 
   const handleClickApprove = () => {
