@@ -1,0 +1,90 @@
+.manager .table-data {
+  font-family: var(--poppins);
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 24px;
+  margin-top: 24px;
+  width: 100%;
+  color: var(--dark);
+}
+
+.manager .table-data > div {
+  border-radius: 20px;
+  background: var(--light);
+  padding: 24px;
+  overflow-x: auto;
+}
+
+.manager .table-data .head {
+  display: flex;
+  align-items: center;
+  grid-gap: 16px;
+  margin-bottom: 24px;
+}
+
+.manager .table-data .head .title-level3 {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.manager .table-data .order {
+  flex-grow: 1;
+  flex-basis: 500px;
+}
+
+.manager .table-data .order table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.manager .table-data .order table th {
+  padding-bottom: 12px;
+  font-size: 13px;
+  text-align: left;
+  border-bottom: 1px solid var(--grey);
+}
+
+.manager .table-data .order table th,
+.manager .table-data .order table td {
+  min-width: 7rem;
+}
+
+.manager .table-data .order table td {
+  padding: 16px 0;
+}
+
+.manager .no-request-message {
+  text-align: center;
+}
+
+.manager .table-data .order table td img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.manager .table-data .order table tbody tr:hover {
+  background: var(--grey);
+}
+
+.manager .table-data .order table tr td .status {
+  font-size: 10px;
+  padding: 6px 16px;
+  color: var(--light);
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.manager .table-data .order table tr td .status.approved {
+  background: var(--blue);
+}
+
+.manager .table-data .order table tr td .status.status.pending {
+  background: var(--yellow);
+}
+
+.manager .table-data .order table tr td .status.rejected {
+  background: var(--orange);
+}

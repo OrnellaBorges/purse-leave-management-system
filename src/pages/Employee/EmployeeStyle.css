@@ -1,0 +1,40 @@
+.employee {
+  padding: 1rem;
+}
+
+.employee form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.employee label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.employee input[type="text"],
+.employee textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--dark-grey);
+  border-radius: 4px;
+}
+
+.employee textarea {
+  height: 100px;
+}
+
+/* .employee button[type="submit"] {
+  background-color: var(--blue);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+.employee button[type="submit"]:hover {
+  background-color: #2a78cc;
+}

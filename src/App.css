@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --poppins: "Poppins", sans-serif;
+  --lato: "Lato", sans-serif;
+
+  --light: #f9f9f9;
+  --pink: #ff4f5a;
+  --dark-green: #1a2e35;
+  --aqua-green: #1cbbb4;
+  --blue: #3c91e6;
+  --light-blue: #cfe8ff;
+  --grey: #eee;
+  --dark-grey: #aaaaaa;
+  --dark: #342e37;
+  --red: #db504a;
+  --yellow: #ffce26;
+  --light-yellow: #fff2c6;
+  --orange: #fd7238;
+  --light-orange: #ffe0d3;
+}
+
+#root {
+  min-height: 100vh;
+  background: var(--light);
+}
+
+main {
+  font-family: var(--poppins);
+}
+
+.button {
+  border-radius: 5px;
+  min-width: 10rem;
+  background-color: var(--blue);
+  padding: 0.5rem 1rem;
+  color: var(--light);
+  font-size: 1rem;
+  font-family: var(--poppins);
+  cursor: pointer;
+}

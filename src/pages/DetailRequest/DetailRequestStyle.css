@@ -1,0 +1,41 @@
+.detail-request {
+  background-color: var(--light);
+  border-radius: 20px;
+  margin: 2.5rem auto 0;
+  padding: 0.8rem;
+  font-family: var(--poppins);
+  line-height: 2rem;
+  text-align: center;
+}
+
+.back-button {
+  font-family: var(--poppins);
+  display: inline-block;
+  margin: 2rem;
+}
+
+.detail-request .title-level2 {
+  margin-bottom: 20px;
+  color: var(--blue);
+}
+
+.detail-request .button-container {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.detail-request .button-container .detail-button {
+  padding: 10px 20px;
+  background-color: var(--dark-green);
+  color: var(--light);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: var(--lato);
+}
+
+.detail-request .button-container .detail-button:hover {
+  background-color: var(--dark-green);
+}

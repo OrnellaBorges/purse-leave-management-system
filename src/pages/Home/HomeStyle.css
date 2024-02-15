@@ -1,0 +1,39 @@
+.main-welcome {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-welcome .section-welcome {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  color: var(--light);
+  background: var(--dark-green);
+}
+
+.main-welcome .title-level1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.main-welcome .welcome-button-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-welcome .button.button-welcome {
+  background-color: var(--pink);
+}
+
+.main-welcome .section-image {
+  padding: 45px 0;
+  background-color: var(--aqua-green);
+}
+
+.main-welcome .image {
+  margin: 0 auto;
+}
